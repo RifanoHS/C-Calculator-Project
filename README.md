@@ -1,30 +1,25 @@
-switch (op) {
-        case '+':
-            result = num1 + num2;
-            printf("Result: %.2f\n", result);
-            break;
+[Wallahi.txt](https://github.com/user-attachments/files/23747129/Wallahi.txt)
+Team Contributions Log
+----------------------
 
-        case '-':
-            result = num1 - num2;
-            printf("Result: %.2f\n", result);
-            break;
+Leader: Rifano
+- Created repository
+- Set up README
+- Organized branches
 
-        case '*':
-            result = num1 * num2;
-            printf("Result: %.2f\n", result);
-            break;
+Member Raddo:
+- Implemented function
+- 3 commits
+- Reviewed subtraction
 
-        case '/':
-            if (num2 == 0) {
-                printf("Error: Division by zero is not allowed.\n");
-            } else {
-                result = num1 / num2;
-                printf("Result: %.2f\n", result);
-            }
-            break;
+Member Rizky:
+- Implemented function
+- 3 commits
+- Tested division
 
-        default:
-            printf("Invalid operator.\n");
-    }
+Member Davin:
+- 3 commits
+- Helped fix header includes
+- made addition, subtraction
 
 
